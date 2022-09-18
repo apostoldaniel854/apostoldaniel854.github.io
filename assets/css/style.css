@@ -113,14 +113,14 @@ img {
   color: rgb(240, 248, 255);
 }
 
-#projects {
+#work {
   text-align: center;
   width: 100%;
   padding: 7rem .1rem;
   background-color: var(--secondary-color);
 }
 
-#projects .projects {
+#work .work {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 3rem;
@@ -128,7 +128,7 @@ img {
   margin-top: 2rem;
 }
 
-#projects .container>h1 {
+#work .container>h1 {
   font-size: 2.6rem;
   color: #fff;
   font-weight: bolder;
@@ -147,19 +147,19 @@ img {
   margin-bottom: 3rem;
 }
 
-#projects .projects .box {
+#work .work .box {
   background-color: #eee;
   border: 5px solid #eee;
   border-radius: 3px;
 }
 
-#projects .projects .box a {
+#work .work .box a {
   display: inline-block;
   cursor: pointer;
   text-decoration: none;
 }
 
-#projects .projects .box a p {
+#work .work .box a p {
   padding: 1.5rem;
   font-size: 1.4rem;
   font-weight: 700;
@@ -174,7 +174,7 @@ img {
   font-size: 1.6rem;
 }
 
-#projects .projects .box:hover .code {
+#work .work .box:hover .code {
   color: var(--primary-color);
 }
 
@@ -240,7 +240,7 @@ img {
   font-size: 1.2rem;
 }
 
-#main-footer #creator a {
+#main-footer #quote a {
   text-decoration: underline;
   color: #eee;
 
@@ -254,7 +254,7 @@ img {
     justify-content: center;
   }
 
-  #projects .projects {
+  #work .work {
     grid-template-columns: repeat(1, 1fr);
   }
 
@@ -271,7 +271,7 @@ img {
     flex-direction: column;
   }
 
-  #main-footer #creator {
+  #main-footer #quote {
     margin-top: 1rem;
   }
 }
